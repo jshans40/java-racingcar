@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.*;
 
 public class StringTest {
 
-    @DisplayName("스플릿 테스트")
+    @DisplayName("스플릿 테스트1")
     @Test
     void split() {
         String[] result = "1,2".split(",");
